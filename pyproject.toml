@@ -1,0 +1,13 @@
+[project]
+name = "f1-championship-history-pipeline"
+version = "0.1.0"
+description = "Pipeline ETL automatizado de datos históricos de F1 usando la API Jolpica"
+authors = [{ name = "Krailynd", email = "elvis@example.com" }]
+dependencies = [
+    "requests>=2.31.0",
+    "pandas>=2.2.0",
+    "pyarrow>=15.0.0",
+    "tqdm>=4.66.0",
+]
+readme = "README.md"
+requires-python = ">=3.10"
